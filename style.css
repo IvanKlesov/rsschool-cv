@@ -3,13 +3,15 @@ body {
   font-family: Verdana sans-serif;
   font-size: 18px;
 }
-header, main {
+header,
+main {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;;
 }
 
-h3, h5 {
+h3,
+h5 {
   text-transform: uppercase;
 }
 
@@ -17,8 +19,18 @@ ul li {
    line-height: 1.5;
 }
 
+li a {
+  text-decoration: none;
+  color: #333333;
+}
+
+li a:hover {
+  color: #3EA3FF;
+}
+
 /* End General */
 /* Header */
+
 header {
   border-bottom: 3px solid #cccccc;
 }
@@ -41,24 +53,20 @@ font-size: 22px;
 }
 
 /* End Header */
-/* Section about me */
-
-.about-me {
-  border-bottom: 3px solid #cccccc;
-}
-
-/* End Section about me */
 /* Section education */
 
-.education {
-  border-bottom: 3px solid #cccccc;
+.italic {
+  font-style: italic;
 }
 
 /* End Section education */
-/* Section work-skills */
+/* Border-bottom between sections */
 
-.work-skills {
+.work-skills,
+.education,
+.about-me,
+header {
   border-bottom: 3px solid #cccccc;
 }
 
-/* End Section work-skills */
+/* End Border-bottom between sections */
