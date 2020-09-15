@@ -8,6 +8,7 @@ main {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;;
+  padding-left: 40px;
 }
 
 h3,
@@ -30,10 +31,6 @@ li a:hover {
 
 /* End General */
 /* Header */
-
-header {
-  border-bottom: 3px solid #cccccc;
-}
 
 header img {
   float: right;
@@ -62,10 +59,13 @@ font-size: 22px;
 /* End Section education */
 /* Border-bottom between sections */
 
+.about-me {
+  border-top: 3px solid #cccccc;
+}
+
 .work-skills,
 .education,
-.about-me,
-header {
+.about-me {
   border-bottom: 3px solid #cccccc;
 }
 
