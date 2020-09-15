@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <link  href="style.css" rel="stylesheet">
+  <title>CV</title>
+  </head>
+  <body>
+    <header>
+      <img src="./image/avatar.jpg" alt="Аватарка">
+      <h2>Klesov Ivan</h2>
+      <p><span>Date of birth</span> 11/08/1993</p>
+      <p><span>Age</span> 27</p>
+      <p><span>City</span> Kursk</p>
+      <p><span>Email</span> ivklesov@gmail.com</p>
+      <p><span>Phone</span> +79081220190</p>
+    </header>
+    <main>
+      <section class="about-me">
+        <h3> About me </h3>
+        <article>
+          <h5>My goals</h5>
+          <ul>
+            <li>Find a new job</li>
+            <li>Learning React</li>
+            <li>Become a frontend developer</li>
+          </ul>
+        </article>
+        <article>
+          <h5>My qualities</h5>
+          <ul>
+            <li>Positive</li>
+            <li>Flexbullity</li>
+            <li>Stress resistance</li>
+            <li>Responsibility</li>
+            <li>Initiative</li>
+          </ul>
+        </article>
+      </section>
+      <section class="education">
+        <h5>Education</h5>
+        <ul>
+          <li>2011 - 2014 SWSU Bachelor of Applied Informatics</li>
+          <li>2014 - 2016 SWSU Master of Human Resources Management</li>
+          <li>2020 Courses at html academy</li>
+          <li>2020 Javascript courses</li>
+        </ul>
+        <h5>Languages</h5>
+        <p class="italic">Pre-Intermediate</p>
+      </section>
+      <section class="work-skills">
+        <h5>Work experience</h5>
+        <ul>
+          <li>2013 - 2014 KGDP 7 Computer operator</li>
+          <li>2014 - 2016 KGDP 7 programmer</li>
+          <li>2016 - present KGDP 7 Head of Automated Control Systems Department</li>
+          <li>2019 Training project.<a href="https://github.com/IvanKlesov/Alpha_ver2"> Website for a marketing company.</a></li>
+        </ul>
+        <h5>My skills</h5>
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Git</li>
+          <li>JavaScript</li>
+          <li>Atom</li>
+        </ul>
+      </section>
+      <section>
+        <h3>My code</h3>
+        <h5>Html</h5>
+        <pre><code>
+          &lt;div class="services"&gt;
+            &lt;div class="service"&gt;
+              &lt;div class="service-name"&gt;
+                &lt;h3&gt; Наружная реклама&lt;/h3&gt;
+              &lt;/div&gt;
+              &lt;img src="./images/service1.svg" /&gt;
+            &lt;/div&gt;
+            &lt;div class="service"&gt;
+              &lt;div class="service-name"&gt;
+                &lt;h3&gt;Широкоформатная печать&lt;/h3&gt;
+              &lt;/div&gt;
+              &lt;img src="./images/service3.svg" /&gt;
+           &lt;/div&gt;
+            &lt;div class="service"&gt;
+              &lt;div class="service-name"&gt;
+                &lt;h3&gt; Полиграфия&lt;/h3&gt;
+              &lt;/div&gt;
+              &lt;img src="./images/service5.svg" /&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code></pre>
+        <h5>Css</h5>
+        <pre><code>
+        .services {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         flex: 2 0;
+         }
+
+         .service {
+          position: relative;
+          width: 300px;
+          height: 300px;
+          overflow: hidden;
+          margin-left: 20px;
+          margin-bottom: 20px;
+          font-size: 22px;
+          font-weight: bold;
+         }
+        </code></pre>
+      </section>
+    </main>
+  </body>
+</html>
