@@ -18,3 +18,26 @@ ul li {
 }
 
 /* End General */
+/* Header */
+header {
+  border-bottom: 3px solid #cccccc;
+}
+
+header img {
+  float: right;
+  width: 205px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+header p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+header span {
+font-weight: bold;
+font-size: 22px;
+}
+
+/* End Header */
