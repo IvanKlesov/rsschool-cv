@@ -41,3 +41,24 @@ font-size: 22px;
 }
 
 /* End Header */
+/* Section about me */
+
+.about-me {
+  border-bottom: 3px solid #cccccc;
+}
+
+/* End Section about me */
+/* Section education */
+
+.education {
+  border-bottom: 3px solid #cccccc;
+}
+
+/* End Section education */
+/* Section work-skills */
+
+.work-skills {
+  border-bottom: 3px solid #cccccc;
+}
+
+/* End Section work-skills */
